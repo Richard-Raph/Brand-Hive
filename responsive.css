@@ -1,0 +1,396 @@
+/* FOR MOBILE - PHONE - VIEW */
+
+@media screen and (max-width: 431px) {
+    .h-label {
+        width: 350px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(13, 10, 53);
+        color: #fff;
+        position: fixed;
+        max-width: 100%;
+        width: 430px;
+        padding: 5px 10px;
+        z-index: 1;
+        top: 1;
+    }
+
+    .img {        
+        object-fit: cover;
+        object-position: center;
+        box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.25);
+        margin-left: 10px;
+    }
+
+    div ul {
+        display: none;
+    }
+
+    .hero {
+        display: none;
+    }
+
+    #menu {
+        display: block;
+        margin-right: 20px;
+    }
+
+    .h-intro {
+        height: 100vh;
+    }
+
+    .h-intro img {
+        height: 100vh;
+    }
+
+    .h-img {
+        display: none;
+    }
+    
+    /* SERVICE OVERVIEW STYLING */
+    .s-render {
+        padding: 20px 0;
+        max-width: 100%;
+    }
+
+    .s-option img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .s-opt-1,
+    .s-opt-2,
+    .s-opt-3,
+    .s-opt-4,
+    .s-opt-5,
+    .s-opt-6,
+    .s-opt-7,
+    .s-opt-8 {
+        width: 150px;
+        height: 180px;
+    }
+
+    /* WHY CHOOSE US STYLING */
+    .y-content {
+        padding: 20px 0;
+        max-width: 100%;
+    }
+
+    .y-label {
+        align-items: center;
+        width: 350px;
+        justify-content: center;
+    }
+
+    .y-label ul {
+        padding: 0 20px;
+        width: 300px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img-4 {
+        display: none;
+    }
+
+    /* SUBSRIBE SECTION STYLING */
+    .s-scribe {
+        height: 10vh;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .s-div {
+        padding: 0  0 20px 20px;
+    }
+
+    #email {
+        width: 250px;
+    }
+
+    div .sub-btn {
+        width: 100px;
+    }
+
+    /* FOOTER STYLING */
+    .f-content {
+        flex-flow: column;
+        gap: 15px;
+    }
+
+    .f-content-logo {
+        position: none;
+        top: 0px;
+        right: 0px;
+    }
+
+    .f-content-logo h6 {
+        right: 0px;
+        bottom: 35px;
+        position: none;
+    }
+
+    .caption {
+        font-size: 19.87px;
+    }
+
+    hr {
+        width: 360px;
+    }
+
+    .f-items {
+        flex-flow: column;
+        align-items: flex-start;
+    }
+
+    /* WHY CHOOSE PAGE STLYING */
+    .why-img {
+        width: 350px;
+    }
+
+    #why-intro {
+        height: 100vh;
+    }
+
+    .chapter-1, .chapter-2, .chapter-3, .chapter-4, .chapter-5, .chapter-6 {
+        padding: 20px 5px;
+    }
+
+    .verse-1 ul,
+    .verse-2 ul,
+    .verse-3 ul,
+    .verse-4 ul,
+    .verse-5 ul,
+    .verse-6 ul {
+        width: 350px;
+        text-align: justify;
+        font-size: 18px;
+        padding: 0 20px;
+    }
+
+    .p-pg {
+        margin-bottom: 10px;
+    }
+
+    /* PRICING STYLING */
+    .p-intro .img-2 {
+        height: 100vh;
+    }
+
+    .p-intro {
+        height: 100vh;
+    }
+
+    .plan {
+        text-align: center;
+    }
+
+    .p-label {
+        top: 18px;
+    }
+
+    .p-desc_ {
+        width: 420px;
+    }
+
+    .best-u {
+        width: 400px;
+    }
+
+    .price-overview {
+        margin-top: 100px;
+    }
+
+    .main-p {
+        padding: 30px 0;
+    }
+
+    /* CONTACT-US STYLING */
+    .contact-us {
+        background: linear-gradient(-270deg,
+            #fff 10.01%,
+            rgba(4, 19, 150, 0.5) 98.13%);
+    }
+    .column-1 {
+        display: none;
+    }
+
+    .column-2 {
+         margin: 0;
+    }
+
+    .contact-info {
+        padding: 0 5px;
+    }
+
+    .l-talk {
+        width: 400px;
+        justify-content: center;
+    }
+
+    .l-talk p {
+        text-align: center;
+    }
+
+    ._fill-form {
+        display: flex;
+        flex-flow: column;
+        width: 420px;
+        padding: 0 10px;
+    }
+
+    #fname, #lname, #e-mail, #num, #subject, #send {
+        width: 350px;
+        margin: 5px;
+    }
+
+    #send {
+        width: 370px;
+    }
+
+    ._fill-form br {
+        display: none;
+    }
+
+    /* ABOUT US STYLING */
+    
+    .about-info {
+        gap: 50px;
+    }
+
+    .enhance h2 {
+        text-align: center;
+    }
+
+    .blog_ {
+        padding: 0 20px;
+    }
+
+    .blog_ h3 {
+        font-size: 28px;
+    }
+
+    .ab-img {
+        display: none;
+    }
+
+    .hr {
+        width: 300px;
+    }
+
+    .info-2 .blog_ {
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .blog_ p {
+        width: 350px;
+    }
+
+    .info-1, .info-2, .info-3 {
+        max-width: 100%;
+        padding: 20px 0;
+    }
+
+    .how_ {
+        gap: 15px;
+    }
+
+    .how_  h2 {
+        font-size: 38px;
+    }
+
+    #ask {
+        width: 350px;
+    }
+
+    .learn-more {
+        gap: 50px;
+    }
+
+    .ask {
+        max-width: 100%;
+        padding: 0;
+        gap: 20px;
+    }
+
+    .ask-word h2 {
+        font-size: 32px;
+    }
+
+    .ask-area {
+        width: 350px;
+        /* height: 15vh; */
+    }
+
+    .ask-area h4 {
+        font-size: 20px;
+    }
+    
+    .all-readings {
+        justify-content:center;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    .readings-1 {
+        width: 350px;
+    }
+
+    .readings-2 {
+        display: none;
+    }
+
+    .in-touch {
+        padding: 20px;
+    }
+
+    .ask-area p {
+        display: none;
+    }
+
+    #chevron-up:hover {
+        transform: rotate(180deg);
+        /* transition: 0.5s; */
+    }
+
+    #chevron-up:hover .ask-area p {
+        display: block;
+    }
+}
+
+
+/* FOR - TABLET - VIEW */
+
+/* @media only screen and (width: 935px) {
+    nav {
+        width: 930px;
+        padding: 15px;
+        max-width: 100%;
+    }
+
+    div ul {
+        margin: 0 20px;
+    }
+
+    .h-img img {
+        width: 100%;
+    }
+
+    .h-intro {
+       max-height: 40vh;
+    }
+
+    .h-intro img {
+        max-height: 40vh;
+    }
+
+    /* SERVICE OVERVIEW STYLING */
+    /* .s-render {
+        padding: 20px 0;
+        max-width: 100%;
+    } */
+/* } */ 
